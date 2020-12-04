@@ -22,16 +22,8 @@
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
-      <plugin>
-          <groupId>org.apache.tomcat.maven</groupId>
-          <artifactId>tomcat7-maven-plugin</artifactId>
-          <version>2.2</version>
-      </plugin> 
-     <configuration>
-                <port>8080</port> 
-      </configuration> 
-  </plugins>
-  </build>
+   </plugins>  
+</build>
   <dependencies>
   	
   	<dependency>
